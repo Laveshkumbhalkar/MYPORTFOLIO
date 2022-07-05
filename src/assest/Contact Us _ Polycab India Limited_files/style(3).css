@@ -1,0 +1,968 @@
+/*
+ Theme Name:     Fortuna Child
+ Description:    Fortuna Child Theme
+ Author:         BlueOwlCreative
+ Version:        1.10
+ Template:       fortuna
+
+*/
+ 
+ 
+
+/* Theme customization starts here */
+
+
+/***** NEW CSS ADD *****/
+
+.main_products .wpb_wrapper ul.theme_ul{
+	text-align: left;
+	display: block;
+}
+.quarterly_tabs .wpb_wrapper{
+	border: 1px solid #e9e9e9;
+	padding: 50px;
+	padding-top: 15px;
+}
+.quarterly_tabs .boc_heading{
+	font-size: 24px;
+	line-height: 28px;
+	text-transform: none;
+	font-weight: 400;
+}
+.quarterly_tabs .minimal_style.horizontal .resp-tabs-list li{
+	border: none;
+	font-size: 20px;
+	line-height: 23px;
+	color: #313131;
+	background-color: #dddddd;
+	margin-right: 15px;
+}
+.quarterly_tabs .minimal_style.horizontal .resp-tabs-list li:hover{
+	background: #d9160a;
+	color: #ffffff;
+}
+.quarterly_tabs .minimal_style.horizontal .resp-tabs-list li:first-child {
+    border-radius: 0px 0 0 0px !important;
+}
+.quarterly_tabs .minimal_style.horizontal .resp-tabs-list li:last-child {
+    border-radius: 0 0px 0px 0 !important;
+}
+.minimal_style.horizontal .resp-tabs-list li.resp-tab-active{
+	border: none!important;
+}
+.quarterly_tabs_inner .wpb_wrapper{
+	border: none!important;
+	padding: 0px!important;
+}
+.earnings_box{
+	border: 1px solid #e9e9e9;
+	padding: 15px;
+}
+.earnings_box .heading{
+	display: block;
+    font-size: 12px;
+    line-height: 24px;
+    padding-bottom: 15px;
+}
+.earnings_box .heading strong{
+	display: block;
+	font-size: 16px;
+	line-height: 24px;
+	padding-bottom: 0px;
+}
+.earnings_box ul li{
+	display: block;
+	font-size: 13px; 
+	line-height: 18px;
+	list-style: none;
+}
+.earnings_box ul li a{
+	color: #333!important;
+}
+.earnings_box ul li a img{
+	display: inline-block;
+	vertical-align: middle;
+	margin-right: 10px;
+}
+.earnings_box ul li a strong{
+	font-size: 13px!important; 
+	line-height: 18px;
+	display: inline-block;
+	vertical-align: middle;
+	font-weight: 400;
+	color: #333!important;
+	width: 74%;
+	margin-left: 0!important;
+	margin-top: 0!important;
+}
+.earnings_box:hover {
+	background-color: #d22323;
+	border-color: #d22323;
+	color: #ffffff;
+}
+.earnings_box:hover p,
+.earnings_box:hover ul li a,
+.earnings_box:hover ul li a strong{
+	color: #ffffff!important;
+}
+.annual_box{
+	background-color: #d42222;
+	padding-top: 40px;
+	padding-bottom: 3px;
+	position: relative;
+}
+.annual_box:before{
+	background-color: #d42222;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    content: "";
+    margin-left: -50%;
+    position: absolute;
+}
+.annual_box:after{
+	background-color: #d42222;
+    right: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    content: "";
+    margin-right: -50%;
+    position: absolute;
+}
+.annual_box .annual_img{
+	display: block;
+	text-align: right;
+	position: relative;
+	z-index: 10;
+}
+.annual_box .annual_content{
+	border: 1px solid #ffffff;
+	text-align: center;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	display: inline-block;
+	width: 100%;
+	position: relative;
+	z-index: 10;
+}
+.annual_box .annual_content h3{
+	display: block;
+	color: #ffffff;
+	font-size: 20px;
+	font-weight: 500;
+	line-height: 24px;
+}
+.annual_box .annual_content ul li{
+	display: inline-block;
+	list-style: none;
+	padding: 0 3px;
+}
+.annual_box .annual_content ul li a{
+	display: block;
+	background-color: #598ffc;
+	color: #ffffff;
+	font-size: 13px;
+	line-height: 24px;
+	font-weight: 500;
+	padding: 3px 15px;
+	border-radius: 2px;
+}
+#jozz_sidemenu .sidenav-btn{
+	float:right !important;
+}
+.subsidiaries_tabs .wpb_wrapper{
+	border: 1px solid #e9e9e9;
+	padding: 50px;
+	background-color: #fcfcfc;	
+}
+.subsidiaries_tabs .boc_heading{
+	font-size: 36px;
+	line-height: 40px;
+	text-transform: none;
+	font-weight: 600;
+	padding-bottom: 20px
+}
+.subsidiaries_tabs .wpb_wrapper .wpb_wrapper{
+	border: none;
+	padding: 0px;
+}
+.horizontal.subsidiaries_tabs .resp-tabs-list li{
+	background-color: transparent;
+	border: 1px solid #dfdfdf;
+	font-size: 28px;
+	line-height: 40px;
+	padding: 7px 90px;
+	margin-right: 100px;
+	font-size: 30px;
+	font-weight: 600;
+	color: #000000;
+}
+.horizontal.subsidiaries_tabs .resp-tabs-list li:hover{
+	background-color: #598ffc;
+}
+.resp-tabs-container{
+	background:none;
+}
+.resp-tabs-container .resp-tab-content {
+	border: none;
+}
+.horizontal .resp-tabs-list li.resp-tab-active{
+	border-top:none!important;
+	background-color: #dd3333;
+	color: #fff;
+	padding: 7px 90px;
+	/*font-size: 24px;*/
+	
+}
+.horizontal .resp-tabs-list li{
+	text-transform: uppercase;
+	background-color: #dddddd;
+	padding: 7px 90px;
+	/*font-size: 24px;*/
+	/*margin-right: 150px;*/
+}
+.horizontal .resp-tabs-list li:last-child{
+	margin-right: 0;	
+}
+.media-tabs .horizontal .resp-tabs-list li{
+    margin-right: 0;
+}
+
+.resp-tab-content{
+	padding: 50px 0 0 0;
+}
+.wpb_wrapper .resp-tab-content ul,.Subsidiaries_contant ul{
+	list-style: none;
+}
+.wpb_wrapper .resp-tab-content ul li,.Subsidiaries_contant ul li{
+	margin-top: 18px;
+}
+.wpb_wrapper .resp-tab-content ul li a img,.Subsidiaries_contant ul li a img{
+	display: inline-block;
+	vertical-align: middle;
+}
+.wpb_wrapper .resp-tab-content ul li a strong,.Subsidiaries_contant ul li a strong{
+	color: #333;
+	font-size: 14px;
+	line-height: 17px;
+	display: inline-block;
+	vertical-align: middle;
+	margin-left: 10px;
+}
+.wpb_wrapper .resp-tab-content ul li a:hover strong,
+.Subsidiaries_contant ul li a:hover strong{
+	color: #d42222;
+}
+.Subsidiaries_contant .select_menu{
+	margin: 10px 0 50px 0;
+}
+.select_menu .year_select{
+	display: inline-block;
+	margin-right: 50px;
+}
+.select_menu .year_select:last-child{
+	margin-right: 0;
+}
+.select_menu .year_select strong{
+	font-size: 23px;
+	line-height: 25px;
+	display: inline-block;
+	font-weight: 600;
+}
+.select_menu .option_select select{
+	display: inline-block;
+	width: 160px;
+	background-color: #fff;
+	display: inline-block;
+	font-size: 18px;
+	color: #8b8b8b;
+	line-height: 22px;
+	border-color:#8b8b8b; 
+	border-radius:5px;
+}
+.select_menu .year_select p{
+	display: none;
+}
+.select_menu .year_select .option_select{
+	display: inline-block;
+	margin-left: 15px;
+}
+.shareholding_pattern{
+	background-color: #fcfcfc;
+	border: 1px solid #dfdfdf;
+	text-align: center;
+	padding: 50px 30px;
+}
+.shareholding_pattern h4{
+	padding: 20px 50px;
+	border: 1px solid #dfdfdf;
+	color: #000;
+	font-size: 32px;
+	line-height: 36px;
+	display:inline-block;
+}
+.shareholding_pattern ul{
+	display: block;
+}
+.shareholding_pattern ul li{
+	display:block;
+	margin-top: 30px!important;
+}
+.shareholding_pattern ul li a{
+	font-size: 22px;
+	color: #000!important;
+	line-height: 26px;
+	display: inline-block;
+}
+.shareholding_pattern ul li a:hover{
+	color: #d9160a!important;
+}
+.shareholding_pattern ul li:last-child{
+	margin-top: 0;
+}
+
+.horizontal.shareholding_tabs .resp-tabs-list li {
+	text-transform: uppercase;
+	background-color: #f1f1f1;
+	padding: 15px 30px;
+	font-size: 24px;
+	margin-right: 5%;
+	border: 0;
+	text-transform: none;
+	width: 47.5%;
+}
+.horizontal.shareholding_tabs .resp-tabs-list li:last-child {
+	margin-right: 0;
+}
+.horizontal.shareholding_tabs .resp-tabs-list li:hover {
+	background-color: #d9160a;
+	color: #fff;
+}
+.horizontal.shareholding_tabs .resp-tabs-list li.resp-tab-active {
+	border-top: none !important;
+	background-color: #d9160a;
+	color: #fff;
+	padding: 15px 30px;
+	font-size: 24px;
+	margin-bottom: 0;
+	margin-top: 0;
+}
+#jozz_sidemenu{
+	display:none ;
+}
+@media screen and (min-width: 1024px) and (max-width: 1400px) {
+
+	.earnings_box ul li a strong{
+		width: 69%;
+	}
+	.horizontal.subsidiaries_tabs .resp-tabs-list li{
+		padding: 7px 62px;
+		margin-right: 70px;
+	}
+	.horizontal.subsidiaries_tabs .resp-tabs-list li.resp-tab-active{
+		padding: 7px 62px;
+	}
+	.horizontal.subsidiaries_tabs .resp-tabs-list li:last-child {
+		margin-right: 0;
+	}
+}
+@media screen and (min-width: 992px) and (max-width: 1023px) {
+	.horizontal .resp-tabs-list li.resp-tab-active{
+		padding:7px 50px;
+	}
+	.horizontal .resp-tabs-list li{
+		padding: 7px 50px;
+		margin-right: 30px;
+	}
+
+}
+@media screen and (min-width:769px) and (max-width: 991px) {
+	
+    .horizontal .resp-tabs-list li.resp-tab-active{
+		padding:7px 40px;
+	}
+	.horizontal .resp-tabs-list li{
+		padding: 7px 40px;
+		margin-right: 60px;
+	}
+	
+}
+@media only screen and (max-width:768px) {
+	#jozz_sidemenu{
+	display:block !important;
+}
+	.vc_custom_1584104585704,.vc_custom_1602154906370 {
+    padding-top: 30px !important;
+    padding-right: 15px !important;
+    padding-left: 30px !important;
+		height:70px !important;
+		border-radius:10px;
+		background-size:cover;
+    background-image: url(https://polycab.com/wp-content/uploads/2019/11/Solar_Product.png?id=31185) !important;
+}
+	
+	.vc_custom_1584104590464,.vc_custom_1602154912210 {
+    padding-top: 30px !important;
+    padding-right: 15px !important;
+    padding-left: 30px !important;
+		height:70px !important;
+			border-radius:10px;
+    background-image: url(https://polycab.com/wp-content/uploads/2019/06/PUMP_new_image.png?id=30022) !important;
+}
+	.quarterly_tabs .wpb_wrapper,.subsidiaries_tabs .wpb_wrapper{
+		padding: 20px;
+		width: 100%;
+	}
+	.wpb_column .wpb_wrapper{
+		margin-bottom: 20px;
+		width: 100%;
+	}
+	.annual_box .annual_img{
+		width: 100%;
+		text-align: center;
+	}
+	.Subsidiaries_contant ul li a strong{
+		width: 100%;
+		margin-left: 0;
+	}
+	.subsidiaries_tabs .boc_heading{
+		font-size: 22px;
+		line-height: 26px;
+		padding-bottom: 0;
+	}
+	.wpb_row{
+		margin-bottom: 0;
+	}
+	.annual_box .annual_content{
+		width: 100%;
+	}
+	.wpb_wrapper .resp-tab-content ul li a strong, .Subsidiaries_contant ul li a strong{
+		font-size: 13px;
+		margin-left: 0;
+	}
+}
+@media only screen and  (max-width:768px) {
+	.amp-wp-7c8cd83{
+		color:#d9160a;
+	}
+	.jzsidebar_container{
+		display:block !important;
+		margin-top:15px !important;
+	}
+	.quarterly_tabs .wpb_wrapper,.subsidiaries_tabs .wpb_wrapper{
+		padding: 20px;
+		width: 100%;
+	}
+	
+	.counter-stripe.wpb_row .counter-stripe.wpb_wrapper{
+		margin-top: 35px !important;
+		width: 100%;
+		    margin-bottom: 100px;
+
+	}
+	  .products_blog  .boc_spacing {
+    height: 125px !important;
+    }
+	.products_blog .boc_heading a{
+white-space:nowrap !important;
+	margin-top:-10px !important;
+	color:white !important;
+	font-size:20px !important;
+	}
+	.amp-wp-dca2caa span{
+		font-size:20px !important;
+	}
+   .vc_custom_1550045817224,.vc_custom_1550045848920,.vc_custom_1584104595010,.vc_custom_1584095960299,.vc_custom_1584104005761,.vc_custom_1584104021033,.vc_custom_1584104590464,.vc_custom_1550045915086,.vc_custom_1584104585704,.vc_custom_1584096515406,.vc_custom_1586405606028,.vc_custom_1550045922310,.vc_custom_1584104590464,.vc_custom_1586405482397,.vc_custom_1586405507123,.vc_custom_1584095947770,.vc_custom_1586406104769,.vc_custom_1584103992171,.vc_custom_1586498798395 {
+    background-size: cover;
+    background-position: center;
+    }
+
+    .switches_product {
+    margin-bottom: 25px !important;
+    }
+
+    .solar_product {
+    padding-right: 0;
+    margin-bottom: 25px !important;
+    }
+
+    .pumps_product {
+    padding-left: 0;
+    margin-bottom: 5px !important;
+    }
+
+    .switchgear_product {
+    margin-bottom: 25px !important;
+    }
+
+    .appliances_product {
+		
+    margin-bottom: 25px !important;
+		 margin-top: 25px !important;
+		border-radius:0px !important;
+    }
+	.lighting_product{
+		margin-bottom:25px !important;
+	}
+	.vc_custom_1584103992171 {
+		margin-top:20px !important;
+    background-image: url(https://polycab.ecosmob.com/wp-content/uploads/2020/03/switches.png?id=33212) !important;
+}
+	.vc_custom_1584104005761 {
+    background-image: url(https://polycab.ecosmob.com/wp-content/uploads/2020/03/fanresponsive.png?id=33213) !important;
+}
+	.vc_custom_1584104021033 {
+			margin-top:20px;
+    background-image: url(https://polycab.ecosmob.com/wp-content/uploads/2020/03/light.png?id=33211) !important;
+}
+	.products_blog .boc_heading{
+white-space:nowrap !important;
+	margin-top:-10px !important;
+	color:white !important;
+	font-size:20px !important;
+	}
+	.products_blog a.btn_theme_color, .products_blog .btn_theme_color {
+    color: #fff;
+    background-color: transparent;
+    border: 1px solid #ffffff;
+	transition: all 1s ease 0s;
+	}
+	a.btn_theme_color, .btn_theme_color {
+    color: #fff;
+    background-color: #d9160a;
+}
+	
+	.vc_custom_1589290509637 {
+    height: 75px;
+    background-image: url(https://polycab.ecosmob.com/wp-content/uploads/2020/02/APPLIANCES.png?id=32983);
+    border-radius: 10px;
+		background-size:cover;
+    margin-bottom: 20px !important;}
+	.vc_custom_1586498798395{padding-top: 20px !important;padding-right: 15px !important;padding-left: 30px !important;background-image: url(https://polycab.ecosmob.com/wp-content/uploads/2020/04/PUMP_new_image.png?id=33917) !important;}.vc_custom_1584095947770{background-image: url(https://polycab.ecosmob.com/wp-content/uploads/2020/02/APPLIANCES.png?id=32983) !important;}.vc_custom_1586405507123{background-image: url(https://polycab.ecosmob.com/wp-content/uploads/2020/04/UPVC-CONDUITS-FITTINGS.png?id=33920) !important;}.vc_custom_1550045915086{padding-top: 20px !important;padding-right: 15px !important;padding-left: 30px !important;}.vc_custom_1584104595010{padding-top: 20px !important;padding-right: 15px !important;padding-left: 30px !important;}.vc_custom_1586405482397{margin-top:20px;background-image: url(https://polycab.ecosmob.com/wp-content/uploads/2020/04/Switchgear-MCB.png?id=33919) !important;}.vc_custom_1584096515406{background-image: url(https://polycab.ecosmob.com/wp-content/uploads/2020/02/EPC.png?id=32988) !important;}
+	.vc_custom_1586405606028 {
+    padding-top: 20px !important;
+    padding-right: 15px !important;
+    padding-left: 30px !important;
+    background-image: url(https://polycab.ecosmob.com/wp-content/uploads/2020/04/Solar_Product.png?id=33918) !important;
+}
+	.vc_custom_1588140363370{
+		background:red !important;
+		background-size:contain !important;
+		    
+	}
+	.n2-ss-slide-background div{
+		background-size:contain !important;
+	}
+	.vc_custom_1584102891990{
+		display:none;
+	}
+	.vc_custom_1586349233798 .vc_figure{
+		width:55px;
+		
+	}
+		.vc_figure amp-img:nth-child(2),.team_image amp-img:nth-child(2){
+		display:none !important;
+	}
+	.nextend-arrow{
+		width:30px !important;
+		height:40px !important;
+	}
+	.vc_cust
+.flexrow{
+		display:flex !important;
+	}		
+	.counter-row .wpb_wrapper{
+		display:flex !important;
+	}
+	
+	.annual_box .annual_img{
+		width: 100%;
+		text-align: center;
+	}
+	.Subsidiaries_contant ul li a strong{
+		width: 100%;
+		margin-left: 0;
+	}
+	.subsidiaries_tabs .boc_heading{
+		font-size: 22px;
+		line-height: 26px;
+		padding-bottom: 0;
+	}
+	.wpb_row{
+		margin-bottom: 0;
+	}
+	.vc_custom_1586349233798 .vc_row.wpb_row.vc_inner.vc_row-fluid{
+		display:flex !important;
+		margin-bottom:25px !important ;
+	}
+	.annual_box .annual_content{
+		width: 100%;
+	}
+	.wpb_wrapper .resp-tab-content ul li a strong, .Subsidiaries_contant ul li a strong{
+		font-size: 13px;
+		margin-left: 0;
+	}
+}
+@media only screen and (max-width:767px) {
+	.nextend-arrow{
+		width:30px !important;
+		height:40px !important;
+	}
+	
+	.vc_custom_1586349233798 .vc_row.wpb_row.vc_inner.vc_row-fluid{
+		display:flex !important;
+	}
+		.vc_figure amp-img:nth-child(2),.team_image amp-img:nth-child(2){
+		display:none !important;
+	}
+	.select_menu .year_select{
+		margin-right: 20px;
+	}
+	.select_menu .option_select select{
+		width: 100%;
+		font-size: 13px;
+		line-height: 17px;
+	}
+	.select_menu .year_select strong{
+		font-size: 18px;
+		line-height: 21px;
+	}
+}
+
+@media only screen and (max-width:480px) {
+	#logo {
+    width: 60%;
+    float: left;
+    margin-left: -75px;
+}
+	.amp-wp-6905532,.amp-wp-35cba16,.amp-wp-35cba16,.amp-wp-6905532{
+		margin-top: 60px !important;
+	
+    float: left;
+    margin-right: 0px !important; 
+    margin-top: 60px;
+
+  
+	}
+	.amp-wp-fba7992{
+		color:red !important
+	}
+	.amp-wp-dca2caa span{
+		font-size:20px !important;
+		
+	}
+	.appliances_product {
+		border-radius:10px !important;
+		margin-top:10px !important;
+    }
+	.switches_product{
+		/*margin-top:-10px !important;*/
+	}
+	a.btn_theme_color, .btn_theme_color {
+    color: #fff;
+    background-color: #d9160a;
+}
+.products_blog .boc_heading{
+white-space:nowrap !important;
+	margin-top:-10px !important;
+	color:white !important;
+	font-size:20px !important;
+	}
+
+	.container{
+		width:92% !important;
+	}
+	.vc_custom_1586349233798{
+	display:block;
+}
+	.vc_custom_1586349233798 .vc_figure{
+		width:55px;
+		
+	}
+	.flexrow{
+		display:flex !important;
+	}
+	.flexrow .vc_figure{
+		margin-left:20px !important;
+	}
+	.amp-wp-6905532,.amp-wp-35cba16{
+		float:left !important;
+		
+		
+	}
+	.team_image:nth-child(2){
+		display:none;
+	}
+	.amp-wp-7fab2ff:first-child{
+		display:none;
+	}
+	
+	 .vc_custom_1586349233798 .vc_row-has-fill>.vc_column_container>.vc_column-inner,.vc_row-has-fill+.vc_row-full-width+.vc_row>.vc_column_container>.vc_column-inner{
+		padding:0px!important;
+	}
+	.vc_custom_1586349233798 .vc_row.wpb_row.vc_inner.vc_row-fluid{
+			display:flex;
+	}
+	.vc_custom_1586349233798 .boc_heading.no_text_transform.center.boc_animate_when_almost_visible.boc_bottom-to-top span{
+		color:#d7210b;
+		white-space:nowrap;
+		
+		
+	}
+	.btn_white span,i{
+		color:white !important;
+	}
+	.vc_custom_1568635036738 span,i{
+		color:white !important;
+	}
+	.vc_custom_1568635036738 span,i.icon-bookmark{
+		color:#d9160a !important;
+	}
+	.amp-wp-7c8cd83{
+		margin-left:-70px;
+		
+	}
+	.vc_figure amp-img:nth-child(2),.team_image amp-img:nth-child(2){
+		display:none !important;
+	}
+	.vc_custom_1586349233798 .vc_row.wpb_row.vc_inner.vc_row-fluid{
+margin-bottom :25px !important;	}
+
+	.vc_custom_1586349233798 .boc_heading.no_text_transform.center.boc_animate_when_almost_visible.boc_bottom-to-top span>p{
+		color:#ccc;
+		
+	}
+		.flexrow{
+		display:flex !important;
+	}
+	.flexrow .vc_figure{
+		margin-left:20px !important;
+	}
+	.amp-wp-6905532,.amp-wp-35cba16{
+		float:left !important;
+		margin-right:60px!important;
+		
+	}
+	.vc_custom_1586349233798 .boc_heading.no_text_transform.center.boc_animate_when_almost_visible.boc_bottom-to-top span{
+		white-space:nowrap;
+		
+	}
+	.vc_custom_1586397854510{
+	display:block;
+}
+	.vc_custom_1582883626147{
+		background:#d7210b;
+	}
+	.footer_btm{
+		border:none !important;
+	}
+		
+	.vc_custom_1584102891990,.vc_custom_1584089779349,.vc_custom_1582883708420,#map-slider{
+		display:none;
+	}
+	
+	
+	.amp-wp-ff11d2c span{
+		font-size:20px;line-height:0px;	}
+	
+	
+	#logo{
+	/*width:100% !important;*/
+}
+	
+	.minus-margin{
+		margin-top:20px !important;
+	}
+
+	
+	#footer{
+		background:#121313 !important;
+	}
+	#wpcs_content_main_27036{
+		display:none !important;
+	}
+.vc_custom_1550045817224,.vc_custom_1550045848920,.vc_custom_1584104595010,.vc_custom_1584095960299,.vc_custom_1584104005761,.vc_custom_1584104021033,.vc_custom_1584104590464,.vc_custom_1550045915086,.vc_custom_1584104585704,.vc_custom_1584096515406,.vc_custom_1586405606028,.vc_custom_1550045922310,.vc_custom_1584104590464,.vc_custom_1586405482397,.vc_custom_1586405507123,.vc_custom_1584095947770,.vc_custom_1586406104769,.vc_custom_1584103992171,.vc_custom_1586498798395{
+	
+	-webkit-border-radius: 10px; -moz-border-radius: 10px; border-radius: 10px !important;
+		height:75px !important;
+		margin-bottom:15px;
+	border-radius:10px !important;
+	}
+	.vc_custom_1586349233798 .boc_heading.no_text_transform.center.boc_animate_when_almost_visible.boc_bottom-to-top span{
+		white-space:nowrap;
+		
+	}
+	.i-amphtml-sidebar-mask{
+		display:none;
+	}
+
+	.products_blog a>span{
+		display:none;
+	}
+
+	.icon-angle-right{
+		margin-left: 76px;font-size: 40px !important;float:right;margin-top:-10px;
+	}
+	.vc_custom_1582883626147:first-of-type{
+		display:none;
+	}
+	.products_blog a.btn_theme_color, .products_blog .btn_theme_color{
+		background:left;
+		width:100%;
+		border:none !important;
+		float:right;
+		
+    margin-top: -40px;
+	}
+	.products_blog a.btn_theme_color, .products_blog .btn_theme_color:hover{
+		background-color:transparent !important;
+	}
+	.nextend-arrow{
+		width:30px !important;
+		height:40px !important;
+	}
+	.vc_custom_1586349233798{
+		margin-bottom:30px;
+	}
+	.vc_custom_1574683527071,.vc_custom_1587710567830{
+		display:none;
+	}
+	.icon-angle-right{
+		margin-left: 76px;
+		font-size: 40px !important;
+		margin-top: 10px !important;
+	}
+	.vc_custom_1588140363370{
+		background:red !important;
+	}
+	
+	.counter-row .wpb_wrapper{
+		display:flex !important;
+	}
+	
+	
+	
+	.select_menu .year_select{
+		margin-right:0;
+		margin-bottom: 20px;
+	}
+	
+
+}
+.minimal_style.horizontal .resp-tabs-list li.resp-tab-active, .minimal_style.resp-vtabs .resp-tabs-list li.resp-tab-active {
+    background: #d9160a;
+    color: #fff;
+}
+.hover_image{
+	display: none !important;
+}
+.earnings_box:hover .image-effect{
+	display: none !important;
+}
+.earnings_box:hover .hover_image{
+	display: inline-block !important;
+}
+
+/************* New css changes ***************/
+.side_panel_img img{
+    height: auto !important;
+}
+.textwidget.custom-html-widget{
+	padding-bottom: 0px;
+}
+.cta-new-about{
+    box-sizing: border-box;
+    overflow: auto;
+    background-color: #e7e3e2;
+}
+.cta-new-about .cta-container{
+    max-width: 1260px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.cta-container .vc_column-inner{
+    padding-top: 35px;
+}
+
+
+@media( max-width: 768px ){
+	#cta-new .wpb_wrapper{ margin-bottom: 0 !important; }
+	#cta-new h2{ margin-bottom: 0 !important; }
+	#cta-new .mobile-space .vc_column-inner{ padding-top: 0px; }
+	#cta-new .mobile-space{ margin-top: 0 !important; }
+	#cta-new,
+	#cta-new h2{ text-align: center; }
+}
+.vc_custom_1586406104769 {
+background-image: url(http://polycab.ecosmob.com/wp-content/uploads/2020/02/wire.png?id=32978) !important;
+}
+.vc_custom_1589290509637 {
+    background-image: url(https://polycab.ecosmob.com/wp-content/uploads/2020/02/APPLIANCES.png?id=32983) !important;
+}
+.i-amphtml-sidebar-mask[i-amphtml-sidebar-opened]{
+z-index: 1 !important;
+	display:none;
+}
+.i-amphtml-sidebar-mask{
+	display:none !important;
+}
+
+[class*="amphtml-sidebar-mask"] {
+    background: none;
+	z-index:1;
+}
+
+/*Submenu css*/
+.subsubsub_menu {
+	position: absolute;
+	top: -2px;
+	left:100%;
+	opacity: 0;
+	visibility: hidden;
+
+	-webkit-transition: all 0.15s ease;
+	-moz-transition: all 0.15s ease;
+	-ms-transition: all 0.15s ease;
+	-o-transition: all 0.15s ease;
+	transition: all 0.15s ease;
+	
+	webkit-box-shadow: 0px 1px 4px rgba(0,0,0,0.1);
+	-moz-box-shadow: 0px 1px 4px rgba(0,0,0,0.1);
+	box-shadow: 0px 1px 4px rgba(0,0,0,0.1);
+	background:#ffffff;	
+	background: rgba(255,255,255,0.97);
+	border-top: 2px solid #08ada7;	
+	z-index: 1021;
+}
+
+#menu > ul > li li.active > div.subsubsub_menu {
+	opacity: 1;
+	visibility: visible;
+
+	-webkit-transition: all 0.3s ease;
+	-moz-transition: all 0.3s ease;
+	-ms-transition: all 0.3s ease;
+	-o-transition: all 0.3s ease;
+	transition: all 0.3s ease;	
+}
+.custom_menu_4 .subsubsub_menu {
+    background: rgba(20,20,20,0.97);
+	webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none;
+}
+.i-amphtml-sidebar-mask[i-amphtml-sidebar-opened]{
+z-index: 1 !important;
+	display:none;
+}
+.i-amphtml-sidebar-mask{
+	display:none !important;
+}
+
+[class*="amphtml-sidebar-mask"] {
+    background: none;
+	z-index:1;
+}
