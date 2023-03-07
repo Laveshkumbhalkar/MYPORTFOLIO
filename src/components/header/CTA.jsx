@@ -1,5 +1,5 @@
 import React from 'react'
-import CV from '../../assest/Goa-Tour-Package.pdf'
+import CV from "../../assest/7d17f6f075147e46beb0d072c184fd14fd08acf2.pdf";
 
 const CTA = () => {
   return (

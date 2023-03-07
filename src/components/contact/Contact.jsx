@@ -46,7 +46,7 @@ function contact() {
           <article className="contact__option">
             <IoLogoWhatsapp className="contact__option-icon" />
             <h4>WhatsApp</h4>
-            <h5>+918446038184</h5>
+            <h5>Click below</h5>
             <a href="https://api.whatsapp.com/send?phone=8446038184" target="_blank">Send a message</a>
           </article>
         </div>
